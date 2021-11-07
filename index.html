@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FETCH GITHUB PROFILE </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main" id="searchBox">
+        <h1>ENTER GITHUB PROFILE</h1>
+        <div class="form">
+            <input type="text" name="" id="search" class="input1">
+            <br>
+            <button onclick="getData()" class="btn">Search</button>
+        </div>
+
+
+
+    </div>
+
+    <div class="main1 hide" id="profileCard">
+
+        <div class="profile">
+
+            <div class="avatar" id="avatar">
+                <img src="" alt="" id="avatar_img">
+            </div>
+
+            <h2 class="username" id="userName">User Name</h2>
+
+        </div>
+
+        <div class="location" style="text-align: center;">
+            <h4 id="location">location</h4>
+        </div>
+
+        <div id="bio" style="text-align: center;">
+            <p class="para"></p>
+        </div>
+
+        <br>
+        <hr>
+
+
+        <div class="follow_Info">
+
+            <div class="info_1" id="ll">
+                <i class="fas fa-users"></i>
+                <h3 id="Followers">Followers</h3>
+                <h4>Followers</h4>
+            </div>
+
+            <div class="info_2">
+                <i class="fas fa-file"></i>
+
+                <h3 id="Respository">Respository</h3>
+                <h4>Respository</h4>
+            </div>
+
+            <div class="info_3">
+                <i class="fas fa-user-plus"></i>
+                <h3 id="Following">Following</h3>
+                <h3>Following</h3>
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
